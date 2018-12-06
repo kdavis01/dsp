@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > show current working directory path: pwd
+> > create a directory: mkdir
+> > delete a directory: rmdir
+> > create a file: touch <file name>
+> > delete a file: rm
+> > rename a file: mv
+> > list hidden files: ls .*
+> > copy file: cp
+> > search and replace: sed
+> > remove duplicates : uniq
+> > get counts (lines, words, char) : wc
 
 ---
 
@@ -35,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls : lists all of the things (files or directories) contained in the directory you are in
+> > ls -a : lists all of the things contained in the directory you are in including any hidden files.
+> > ls -l : lists all things contained in the directory in long format.
+> > ls -lh : in long format lists, puts the size in a more readable format, reduces the number of digits.
+> > ls -lah :
+> > ls -t :
+> > ls -Glp :
 
 ---
 
