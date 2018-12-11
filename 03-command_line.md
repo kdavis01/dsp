@@ -59,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> >
+> > ls -t : displays newest files first based on timestamps
+> > ls -m : displays all things in a comma separated list
+> > ls -r : displays all things in reverse order
+> > ls -u : displays all files by file access time
+> > ls -1 : displays all things each on a new line
 
 ---
 
@@ -67,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 
-
+> > xargs converts standard inputs into arguments to a command line which is necesary for some commands that can only take input as arguments.
+> > Example: xargs find -name "*.ipynb" will search for all .ipynb files in the current directory
  
 
