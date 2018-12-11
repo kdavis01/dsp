@@ -49,9 +49,9 @@ What do the following commands do:
 > > ls -a : lists all of the things contained in the directory you are in including any hidden files.
 > > ls -l : lists all things contained in the directory in long format.
 > > ls -lh : in long format lists, puts the size in a more readable format, reduces the number of digits.
-> > ls -lah :
-> > ls -t :
-> > ls -Glp :
+> > ls -lah : in long format lists, puts size in more readable format, and includes all entries including those hidden.
+> > ls -t : lists all of the things sorted by time modified.
+> > ls -Glp : lists all of the things in long format, colorizing direcrtories vs files, and putting a / at the end if it is a directory.
 
 ---
 
@@ -59,7 +59,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
 
 ---
 
@@ -67,7 +67,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
  
 
