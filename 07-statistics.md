@@ -72,7 +72,7 @@ You will see effect size again and again in results of algorithms that are run i
 ### Q1 ANSWER:
 I used the following code to investigate if first born babies are lighter or heavier than all other babies:
 
-![](img/cohensd.png)
+<img src="img/cohensd.png">
 
 After splitting up the babies into 2 groups (first borns and others), I calculated the mean weight for each group and found that first born babies have a slightly lower mean weight at 7.2011 pounds compared to the mean weight of 7.3259 pounds for other babies. In calculating the Cohen's D Effect of the 2 groups, I got a -0.0887 effect from first babies to others. This means that the difference in weight between first babies and others is about 3 times as large as the difference in pregnancy lengths between first babies and others which has a Cohen's D Effect of about 0.0289.
 
