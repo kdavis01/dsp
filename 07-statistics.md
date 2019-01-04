@@ -91,16 +91,18 @@ This problem presents a robust example of actual vs biased data.  As a data scie
 >> <img src="img/plotboth.png">
 
 ### Q3. [Think Stats Chapter 4 Exercise 2](statistics/4-2-random_dist.md) (random distribution)  
-This questions asks you to examine the function that produces random numbers.  Is it really random?  A good way to test that is to examine the pmf and cdf of the list of random numbers and visualize the distribution.  If you're not sure what pmf is, read more about it in Chapter 3.
+This question asks you to examine the function that produces random numbers.  Is it really random?  A good way to test that is to examine the pmf and cdf of the list of random numbers and visualize the distribution.  If you're not sure what pmf is, read more about it in Chapter 3.
 
->> For this question I generated 1000 random numbers between 0 and 1 and plotted both the PMF and CDF of these random numbers. While the PMF was messy and unreadable on a graph, the CDF closely resembled a straight line, which shows that the distribution of these random numbers is approximaely uniform. The code I used for this quesrtion is as follows:
+>> For this question I generated 1000 random numbers between 0 and 1 and plotted both the PMF and CDF of these random numbers. While the PMF was messy and unreadable on a graph, the CDF closely resembled a straight line, which shows that the distribution of these random numbers is approximaely uniform. The code I used for this question is as follows:
 
 >> <img src="img/randomcdf.png">
 
 ### Q4. [Think Stats Chapter 5 Exercise 1](statistics/5-1-blue_men.md) (normal distribution of blue men)
 This is a classic example of hypothesis testing using the normal distribution.  The effect size used here is the Z-statistic. 
 
+>> For this question, I created a normal distribution using scipy.stats with a specified mu of 178 inches and sigma of 7.7 to mirror the BRFSS data. Using this distribution, I calculated the CDF of a height of 6'1" and subtracted that by the CDF of a height of 5'11" to get the percentage of people between these 2 heights who would qualify for the height requirement for the Blue Men Group. The answer was 34.27% of men. The code I used for this question is as follows:
 
+>> <img src="img/bluemen.png">
 
 ### Q5. Bayesian (Elvis Presley twin) 
 
