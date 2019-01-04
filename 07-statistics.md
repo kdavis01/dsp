@@ -102,7 +102,7 @@ This is a classic example of hypothesis testing using the normal distribution.  
 
 >> For this question, I created a normal distribution using scipy.stats with a specified mu of 178 inches and sigma of 7.7 to mirror the BRFSS data. Using this distribution, I calculated the CDF of a height of 6'1" and subtracted that by the CDF of a height of 5'11" to get the percentage of people between these 2 heights who would qualify for the height requirement for the Blue Men Group. The answer was 34.27% of men. The code I used for this question is as follows:
 
->> <img src="img/bluemen.png">
+>> <img src="img/blueman.png">
 
 ### Q5. Bayesian (Elvis Presley twin) 
 
