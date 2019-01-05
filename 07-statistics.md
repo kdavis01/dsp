@@ -126,7 +126,15 @@ How do frequentist and Bayesian statistics compare?
 The following exercises are optional, but we highly encourage you to complete them if you have the time.
 
 ### Q7. [Think Stats Chapter 7 Exercise 1](statistics/7-1-weight_vs_age.md) (correlation of weight vs. age)
-In this exercise, you will compute the effect size of correlation.  Correlation measures the relationship of two variables, and data science is about exploring relationships in data.    
+In this exercise, you will compute the effect size of correlation.  Correlation measures the relationship of two variables, and data science is about exploring relationships in data.
+
+>> For this question, I looked at the Mother's Age vs. the Child's Birth Weight and plotted 3 Birth Weight Percentiles from the 25th to the 75th. The plot and the code used are as follows:
+
+>> <img src="img/weightpercentilevsage.png">
+
+>> Next, I did a scatter plot of the Mother's Age and Child's Birth Weight to look at the correlation between the two variables. I calculated the Pearson's Correlation to be about 0.07 and the Spearman Rank Correlation to be about 0.09. Both the correlation factor calculations and the scatter plot show a weak relationship between these 2 variables. The code I used for the correlation factor calculations and the scatter plot are as follows:
+
+>> <img src="img/weightagescatter.png">
 
 ### Q8. [Think Stats Chapter 8 Exercise 2](statistics/8-2-sampling_dist.md) (sampling distribution)
 In the theoretical world, all data related to an experiment or a scientific problem would be available.  In the real world, some subset of that data is available.  This exercise asks you to take samples from an exponential distribution and examine how the standard error and confidence intervals vary with the sample size.
