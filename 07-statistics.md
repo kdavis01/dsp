@@ -140,6 +140,15 @@ In this exercise, you will compute the effect size of correlation.  Correlation 
 In the theoretical world, all data related to an experiment or a scientific problem would be available.  In the real world, some subset of that data is available.  This exercise asks you to take samples from an exponential distribution and examine how the standard error and confidence intervals vary with the sample size.
 
 ### Q9. [Think Stats Chapter 6 Exercise 1](statistics/6-1-household_income.md) (skewness of household income)
+
+>> For this question, I used the household income data and a graph of the CDF with an upper bound of $1,000,000. I calculated the Mean, Median, Skewness, and Pearson Median Skewness with the following code:
+
+>> <img src="img/1milbound.png">
+
+>> Using those statistics, it looks like about 2/3 or 66% of the population has a household income below the mean. However, an upper bound of $1,000,000 is not very reasonable. By increasing the upper bound to $10,000,000, I found that the skewness factor significantly increases with it. 
+
+>> <img src='img/10milbound.png">
+
 ### Q10. [Think Stats Chapter 8 Exercise 3](statistics/8-3-scoring.md) (scoring)
 ### Q11. [Think Stats Chapter 9 Exercise 2](statistics/9-2-resampling.md) (resampling)
 
