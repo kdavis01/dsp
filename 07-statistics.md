@@ -147,7 +147,7 @@ In the theoretical world, all data related to an experiment or a scientific prob
 
 >> Using those statistics, it looks like about 2/3 or 66% of the population has a household income below the mean. However, an upper bound of $1,000,000 is not very reasonable. By increasing the upper bound to $10,000,000, I found that the skewness factor significantly increases with it. 
 
->> <img src='img/10milbound.png">
+>> <img src="img/10milbound.png">
 
 ### Q10. [Think Stats Chapter 8 Exercise 3](statistics/8-3-scoring.md) (scoring)
 ### Q11. [Think Stats Chapter 9 Exercise 2](statistics/9-2-resampling.md) (resampling)
