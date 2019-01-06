@@ -168,7 +168,7 @@ In the theoretical world, all data related to an experiment or a scientific prob
 
 >> <img src="img/gamesimulation.png">
 
-I ran the MultGameSimulator function a few times using an increasing number of games as input to compare their Mean Errors and found that as the amount of simulated games increases, the Mean Error decreases and comes very close to 0. This leads me to assume that this estimator is unbiased. 
+>> I ran the MultGameSimulator function a few times using an increasing number of games as input to compare their Mean Errors and found that as the amount of simulated games increases, the Mean Error decreases and comes very close to 0. This leads me to assume that this estimator is unbiased. 
 
 >> <img src="img/rungamesimulation.png">
 
