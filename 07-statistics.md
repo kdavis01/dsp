@@ -163,6 +163,15 @@ In the theoretical world, all data related to an experiment or a scientific prob
 >> <img src="img/10milbound.png">
 
 ### Q10. [Think Stats Chapter 8 Exercise 3](statistics/8-3-scoring.md) (scoring)
+
+>> For this question, I used a function called Simulate Game which takes in a scoring rate and returns the number of goals scored in a game. Another function, MultGameSimulator was then used to simulate several games and store the lambda estimates from each game in a list. The function then computes the RMSE and Mean Error of the estimates. The code for the functions is as follows:
+
+>> <img src="img/gamesimulation.png">
+
+I ran the MultGameSimulator function a few times using an increasing number of games as input to compare their Mean Errors and found that as the amount of simulated games increases, the Mean Error decreases and comes very close to 0. This leads me to assume that this estimator is unbiased. 
+
+>> <img src="img/rungamesimulation.png">
+
 ### Q11. [Think Stats Chapter 9 Exercise 2](statistics/9-2-resampling.md) (resampling)
 
 ---
