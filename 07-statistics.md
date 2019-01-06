@@ -139,6 +139,19 @@ In this exercise, you will compute the effect size of correlation.  Correlation 
 ### Q8. [Think Stats Chapter 8 Exercise 2](statistics/8-2-sampling_dist.md) (sampling distribution)
 In the theoretical world, all data related to an experiment or a scientific problem would be available.  In the real world, some subset of that data is available.  This exercise asks you to take samples from an exponential distribution and examine how the standard error and confidence intervals vary with the sample size.
 
+>> For this question, I used a function that took in different sample sizes (n) and calculated the standard error of the lambda estimates and the confidence interval. It then created a plot of the estimates and CDF. The code for this function is as follows:
+
+>> <img src="img/sampleexponential.png">
+
+>> I then created a dictionary in which to append all of the standard errors with their associated sample sizes and ran the function with a few different sample sizes to determine the associated standard errors.
+
+>> <img src="img/testn1.png">
+>> <img src="img/testn2.png">
+
+>> Finally, I plotted the key/value pairs of the dictionary and it shows that as the sample size n gets larger, the standard error gets closer to 0.
+
+>> <img src="img/plotnerrors.png">
+
 ### Q9. [Think Stats Chapter 6 Exercise 1](statistics/6-1-household_income.md) (skewness of household income)
 
 >> For this question, I used the household income data and a graph of the CDF with an upper bound of $1,000,000. I calculated the Mean, Median, Skewness, and Pearson Median Skewness with the following code:
